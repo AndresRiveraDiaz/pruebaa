@@ -32,7 +32,7 @@ public class PruebaDepura{
 
     public static void ordenar(int tamano, int[] vector) {
         int aux;
-        for (int i=0; i< tamano; i++)
+        for (int i=5; i< tamano; i++)
             for(int j=i+1; j< tamano; j++) {
                 if (vector[j] < vector[i]) {
                     aux= vector[j];
